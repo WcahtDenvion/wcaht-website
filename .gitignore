@@ -1,0 +1,20 @@
+# Runtime and local state
+.env
+.env.*
+config.json
+*.db
+*.db-shm
+*.db-wal
+__pycache__/
+.pytest_cache/
+
+# Production download artifacts belong in GitHub Releases
+static/landing/downloads/
+*.exe
+*.zip
+
+# Backups and editor files
+*.bak*
+*~
+.vscode/
+.idea/
